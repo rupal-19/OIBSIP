@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat-dark";
+}
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  overflow: hidden;
+}
+.header {
+  font-family: "Montserrat-dark";
+  font-size: 1.2rem;
+  padding: 0 30px 0 0;
+}
+.header:hover {
+  color: Black;
+  font-weight: bold;
+}
+.logo {
+  width: 170px;
+  height: 50px;
+  margin: 4px 802px 0 30px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: -634px;
+  left: 216px;
+  color: white;
+}
+.text1 {
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.5s all ease-in-out;
+}
+.text1:hover {
+  transform: scale(1.2);
+  color: white;
+}
+.bottom-left2 {
+  position: absolute;
+  bottom: -676px;
+  left: 217px;
+  color: white;
+  width: 20%;
+}
+
+.main-1-img {
+  width: 1519px;
+  height: 700px;
+}
+.main-2-img {
+  width: 1519px;
+  height: 700px;
+}
+.main-3-img {
+  height: 10px;
+}
+.bottom-right1 {
+  position: absolute;
+  color: white;
+  bottom: -1311px;
+  left: 185px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.bottom-right2 {
+  position: absolute;
+  bottom: -1358px;
+  left: 189px;
+  color: white;
+  width: 20%;
+}
+.bottom-left3 {
+  position: absolute;
+  bottom: -2104px;
+  left: 287px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.bottom-left4 {
+  position: absolute;
+  bottom: -2176px;
+  left: 287px;
+  color: white;
+  width: 20%;
+}
+/* brands */
+.image1 {
+  position: absolute;
+  margin: -189px 1329px 0 -42px;
+  transition: 0.5s all ease-in-out;
+  border-radius: 100%;
+  height: 87px;
+}
+.image2 {
+  position: absolute;
+  margin: 404px 815px 0 325px;
+  border-radius: 100%;
+  transition: 0.5s all ease-in-out;
+  height: 146px;
+  width: 158px;
+}
+.image3 {
+  position: absolute;
+  margin: -553px 725px 0 291px;
+  border-radius: 100%;
+  height: 197px;
+  transition: 0.5s all ease-in-out;
+}
+.image4 {
+  position: absolute;
+  margin: -314px 113px 0 630px;
+  border-radius: 100%;
+  height: 128px;
+  transition: 0.5s all ease-in-out;
+}
+.image5 {
+  position: absolute;
+  margin: -514px -343px 100px 1000px;
+  border-radius: 100%;
+  height: 186px;
+  transition: 0.5s all ease-in-out;
+}
+.image6 {
+  position: absolute;
+  margin: 158px -166px 0 289px;
+  border-radius: 100%;
+  height: 114px;
+  width: 100px;
+  transition: 0.5s all ease-in-out;
+}
+.image7 {
+  position: absolute;
+  margin: 109px 0 0 919px;
+  border-radius: 100%;
+  height: 115px;
+  transition: 0.5s all ease-in-out;
+}
+.image8 {
+  position: absolute;
+  margin: 706px 0 200px 900px;
+  border-radius: 100%;
+  transition: 0.5s all ease-in-out;
+}
+#coke {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#coke::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+
+  background-image: url("background2.jpg");
+  background-size: cover;
+  opacity: 0.7;
+}
+.footer1 {
+  margin: 0 20px 0 0;
+  text-decoration: none;
+}
+
+.c-image {
+  height: 630px;
+  width: 1520px;
+}

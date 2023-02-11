@@ -1,0 +1,49 @@
+.container {
+  position: absolute;
+  left: 40%;
+  margin-top: 250px;
+}
+body {
+  overflow-x: hidden;
+}
+.text1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.button {
+  margin-top: 10px;
+  margin-left: 90px;
+  font-size: 20px;
+}
+#result {
+  font-size: 20px;
+}
+.dropdown {
+  width: 100px;
+  height: 30px;
+}
+.field {
+  width: 150px;
+  height: 30px;
+}
+#temprature {
+  height: 80vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#temprature::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 800px;
+  width: 250pxh;
+
+  opacity: 0.7;
+}
